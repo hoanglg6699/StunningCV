@@ -1,0 +1,80 @@
+/* ========= in Main class ========= */
+.bottom-wrapper {
+  position: absolute;
+  bottom: 1rem;
+  left: 0;
+  right: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.about-linkto {
+  color: black;
+  text-decoration: none;
+  z-index: 1;
+}
+
+.about-linkto-active {
+  position: absolute;
+  left: 65%;
+  bottom: 0;
+  text-decoration: none;
+  z-index: 1;
+  color: black;
+}
+
+/* ================================= */
+
+.about-wrapper {
+  background-color: black;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.about-spaceman {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  width: 20vw;
+  animation: float 4s ease infinite;
+}
+
+.about-spaceman > img {
+  width: 100%;
+  height: auto;
+}
+
+.about-main {
+  border: 2px solid #fcf6f4;
+  color: #fcf6f4;
+  padding: 2rem;
+  width: 50vw;
+  height: 60vh;
+  z-index: 3;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: calc(0.6rem + 1vw);
+  backdrop-filter: blur(4px);
+  position: absolute;
+  left: calc(5rem + 5vw);
+  top: 10rem;
+  font-family: "Ubuntu Mono", monospace;
+  font-style: italic;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(-10px);
+  }
+  50% {
+    transform: translateY(15px) translateX(15px);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}

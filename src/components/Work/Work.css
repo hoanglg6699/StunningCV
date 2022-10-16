@@ -1,0 +1,48 @@
+/* ========= in Main class ========= */
+.work-linkto {
+  position: absolute;
+  top: 50%;
+  left: calc(1rem + 2vw);
+  text-decoration: none;
+  z-index: 1;
+  color: black;
+  transform: rotate(-90deg);
+}
+
+.work-linkto-active {
+  position: absolute;
+  top: 50%;
+  left: calc(1rem + 2vw);
+  text-decoration: none;
+  z-index: 1;
+  color: white;
+  transform: rotate(-90deg);
+}
+
+/* ================================= */
+.work-wrapper {
+  background-color: black;
+  height: 400vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.work-main {
+  position: fixed;
+  top: 12rem;
+  left: calc(10rem + 15vw);
+  height: 40vh;
+  display: flex;
+  color: white;
+}
+
+.work-rotate {
+  display: block;
+  position: fixed;
+  right: 1rem;
+  bottom: 1rem;
+  width: 80px;
+  height: 80px;
+  z-index: 1;
+}

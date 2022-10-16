@@ -1,0 +1,46 @@
+.introduction {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 65vw;
+  height: 55vh;
+  display: flex;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  background: linear-gradient(to right, #fcf6f4 50%, black 50%) bottom,
+    linear-gradient(to right, #fcf6f4 50%, black 50%) top;
+  background-repeat: no-repeat;
+  background-size: 100% 2px;
+  border-left: 2px solid #fcf6f4;
+  border-right: 2px solid black;
+}
+
+.introduction-container {
+  width: 50%;
+  position: relative;
+  display: flex;
+}
+
+.introduction-container .introduction-img {
+  position: absolute;
+  bottom: 0;
+  left: 150%;
+  width: 100%;
+  transform: translate(-50%, 0%);
+  height: auto;
+}
+
+.introduction-content {
+  font-size: calc(1em + 1.5vw);
+  padding: 2rem;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.introduction-content > *:last-child {
+    color: rgba(252, 246, 244, 0.6);
+    font-size: calc(0.5rem + 1.5vw);
+    font-weight: 300;
+}
