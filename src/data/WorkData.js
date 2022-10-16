@@ -77,6 +77,6 @@ export const WorkList = [
     ],
 
     demo: "https://nonameproject.vercel.app/",
-    github: "https://github.com/hoanglg6699/StunningCV",
+    github: "https://stunningcv-hoanglg.vercel.app/",
   },
 ];
