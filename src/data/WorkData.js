@@ -73,9 +73,10 @@ export const WorkList = [
       "framer-motion",
       "react-router-dom",
       "react-tsparticles",
+      "...",
     ],
 
     demo: "https://nonameproject.vercel.app/",
-    github: "https://github.com/hoanglg6699/NoNameProject",
+    github: "https://github.com/hoanglg6699/StunningCV",
   },
 ];

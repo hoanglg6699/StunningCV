@@ -18,3 +18,16 @@ h6 {
 .main__container {
     padding: 2rem;
 }
+
+/* Contact */
+
+.contact-linkto {
+  position: absolute;
+  top: 2rem;
+  right: calc(1rem + 2vw);
+  text-decoration: none;
+  z-index: 1;
+  color: black;
+}
+
+/* End Contact */
