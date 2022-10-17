@@ -63,7 +63,7 @@ export const WorkList = [
   },
   {
     id: 7,
-    name: "Stunning CV",
+    name: "Portfolio",
     description: "It is my portfolio for my job",
     tags: [
       "ReactJS",
