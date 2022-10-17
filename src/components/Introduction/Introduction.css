@@ -22,9 +22,17 @@
 }
 
 .introduction-container .introduction-img {
-  position: absolute;
+  /* position: absolute;
   bottom: 0;
   left: 150%;
+  width: 100%;
+  transform: translate(-50%, 0%);
+  height: auto; */
+
+  position: absolute;
+  bottom: -20px;
+  left: 150%;
+  /* top: -84%; */
   width: 100%;
   transform: translate(-50%, 0%);
   height: auto;

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Introduction.css";
 import { darkTheme } from "../Themes/Themes";
-import Me from '../../assets/Images/profile-img.png'
+import ME from '../../assets/Images/me-removebg.png'
 import { motion } from "framer-motion";
 
 const Introduction = (props) => {
@@ -30,7 +30,7 @@ const Introduction = (props) => {
               animate={{ opacity: 1 }}
               transition={{ duration: 1, delay: 1 }}
             >
-                <img className="introduction-img" src={Me} alt="Profile Pic" />
+                <img className="introduction-img" src={ME} alt="Profile Pic" />
             </motion.div>
         </div>
       </div>

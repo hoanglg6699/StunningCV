@@ -1,10 +1,10 @@
 .card-wrapper {
-  width: 20rem;
-  height: 50vh;
+  width: 25rem;
+  height: 60vh;
   background-color: #fcf6f4;
   color: black;
   padding: 1.5rem 2rem;
-  margin-right: 8rem;
+  margin-right: 6rem;
   border-radius: 0 50px 0 50px;
   display: flex;
   flex-direction: column;

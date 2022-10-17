@@ -22,7 +22,7 @@
 /* ================================= */
 .work-wrapper {
   background-color: black;
-  height: 400vh;
+  height: 500vh;
   position: relative;
   display: flex;
   align-items: center;
@@ -30,7 +30,7 @@
 
 .work-main {
   position: fixed;
-  top: 12rem;
+  top: 10rem;
   left: calc(10rem + 15vw);
   height: 40vh;
   display: flex;
